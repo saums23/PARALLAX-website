@@ -1,0 +1,72 @@
+body{margin: 0px;font-family: "Lato",sans-serif;}
+
+.imgSection{
+	opacity: 0.7;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	width: 100%;	
+    position: relative;
+}
+
+.image1{background-image: url('http://www.wallpapers13.com/wp-content/uploads/2016/01/Computer-Desktop-Wallpapers-chicago-usa-city-street-skyscrape-1920x1200.jpg');height: 800px;}
+.image2{background-image: url('https://wallpapercave.com/wp/dIg5Taq.jpg');height: 400px;}
+.image3{background-image: url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/1-london-eye-and-big-ben-at-dusk-scott-e-barbour.jpg');height: 400px;}
+
+
+.parallaxText{
+	position: absolute;
+	width: 100%;
+	top: 47%;
+	text-align: center;
+	
+}
+
+.darktxt{
+	background-color: black;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	font-size: 27px;
+	text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+.imgText{
+	text-align: center;
+	font-size: 27px;
+	text-transform: uppercase;
+    letter-spacing: 8px;
+    font-weight: 700px;
+    color: white;
+}
+
+.txtSection{
+	text-align: center;
+	padding: 20px;
+	background-color: #F4F4F4;
+	color: grey;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.dark{background-color: #282E34;color: white;}
+
+#grey{font-weight: 700;color: #666666;}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 500px){
+
+	.darktxt
+	{
+	
+	padding: 10px;
+
+	font-size: 20px;
+	
+    letter-spacing: 5px;
+	}
+
+}
